@@ -25,4 +25,4 @@ por medio del navegador con la implementación del parqueadero propuesta por nos
 Información que complementa la presentada aquí, junto con una pequeña guía de uso,
 puede ser encontrada en el archivo 
         
-        "Parqueadero - Guía de uso.pdf".
+        Parqueadero - Guía de uso.pdf
