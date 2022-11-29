@@ -5,6 +5,7 @@ from app.schema.celdas_schema import Celdas, CreateCelda
 from app.service.celda_service import Celdas_Repository
 
 class CeldaAPI:
+    """Clase para interactuar con las celdas."""
     def list(self, celda_repository: Celdas_Repository = Depends(Celdas_Repository)) -> List[Celdas]:
         return celda_repository.list()
 
