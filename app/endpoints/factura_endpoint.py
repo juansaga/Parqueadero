@@ -5,7 +5,7 @@ from app.schema.factura_schema import Factura, CreateFactura
 from app.service.factura_service import Facturas_Repository
 
 class FacturaAPI:
-    """Clase para interactuar con las facturas."""
+    """Clase para interactuar con las facturas. """
     def list(self, facturas_repository: Facturas_Repository = Depends(Facturas_Repository)) -> List[Factura]:
         return facturas_repository.list()
 
