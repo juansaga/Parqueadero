@@ -12,3 +12,9 @@ virtual, una de las formas para hacerlo se muestra a continuación:
     
          python3 -m venv venv
          source venv/bin/activate
+         
+Una vez que ya se tiene todo lo necesario para ejecutar el proyecto, esto es,
+el entorno virtual y el software que le da soporte, se debe ejecutar la siguiente 
+línea de código
+
+        uvicorn main:app --reload
