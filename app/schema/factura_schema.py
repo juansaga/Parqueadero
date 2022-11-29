@@ -24,5 +24,7 @@ class Factura(BaseModel):
     total_factura: float
     estado: bool
 
+# Se establece la configuración de tal forma que el modelo creado a partir de 
+# una instancia de clase arbitraria soporte modelos que vayan a objetos ORM
     class Config:
         orm_mode = True
