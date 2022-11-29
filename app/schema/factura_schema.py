@@ -3,6 +3,7 @@ from pydantic import BaseModel
 
 from typing import Optional
 
+# Se define la clase CreateFactura
 class CreateFactura(BaseModel):
     placa :str
     marca:str
@@ -12,6 +13,7 @@ class CreateFactura(BaseModel):
     total_factura: float
     estado: bool
 
+# Se define la clase Factura
 class Factura(BaseModel):
     id: int
     placa :str
