@@ -18,3 +18,11 @@ el entorno virtual y el software que le da soporte, se debe ejecutar la siguient
 línea de código
 
         uvicorn main:app --reload
+        
+Con esa línea se tiene entonces acceso al proyecto, es decir, se puede interactuar
+por medio del navegador con la implementación del parqueadero propuesta por nosotros.
+
+Información que complementa la presentada aquí, junto con una pequeña guía de uso,
+puede ser encontrada en el archivo 
+        
+        "Parqueadero - Guía de uso.pdf".
