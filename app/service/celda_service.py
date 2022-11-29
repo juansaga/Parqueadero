@@ -6,7 +6,7 @@ from app.model.celdas import Celdas
 
 class Celdas_Repository:
     
-    # Se define la función para inicializar la clase
+    # Se define la función para inicializar la clase 
     def __init__(self, db: Session = Depends(get_db)):
         self.db = db
     def list(self) -> list[Celdas]:
